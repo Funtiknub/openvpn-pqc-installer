@@ -38,9 +38,11 @@ chmod +x open-pqc-vpn.sh
 
 **Managing the server:**
    - Re-run the script to access the management menu:
-     - Add new PQC clients
-     - Revoke existing clients (with CRL)
-     - Remove the entire installation
+     - On subsequent runs, the script will display a simple interactive menu allowing you to:
+       - Add new PQC clients
+       - Revoke existing clients (with CRL)
+       - Remove the entire installation
+       - Exit
 
 ## Security Notes
 
