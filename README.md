@@ -45,7 +45,7 @@ chmod +x open-pqc-vpn.sh
 ## Security Notes
 
 - All cryptographic operations use OpenSSL 3.5+ with PQC algorithms.
-- Certificates and keys are stored in `/etc/openvpn/pqc-ca/`.
+- Certificates and keys are stored in `/etc/openvpn/pqc-ca/`. Client configuration files are also copied to `/root/client/` for convenience.
 - Revoked clients are managed via a Certificate Revocation List (CRL).
 - The script does not enable compression by default (to avoid VORACLE attack).
 
