@@ -3,6 +3,10 @@
 **Post-Quantum Cryptography (PQC) ready OpenVPN server installer and management script.**  
 This script automates the installation, configuration, and management of an OpenVPN server using the latest OpenSSL 3.5+ with built-in post-quantum cryptography support (Kyber, ML-DSA, SLH-DSA, etc).
 
+> At the moment, this solution is among the most advanced and secure ways to deploy an OpenVPN server with post-quantum cryptography support.
+> To our knowledge, there are currently no other open-source projects on GitHub that provide a ready-to-use installer and management script for a PQC-enabled OpenVPN server.
+> This project was created to fill that gap and to help the community prepare for the post-quantum era.
+
 ## Features
 
 - Automated installation of OpenSSL 3.5+ (with PQC support) and OpenVPN from source
