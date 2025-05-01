@@ -40,9 +40,13 @@ chmod +x open-pqc-vpn.sh
    - Re-run the script to access the management menu:
      - On subsequent runs, the script will display a simple interactive menu allowing you to:
        - Add new PQC clients
-       - Revoke existing clients (with CRL)
+       - Revoke existing clients
        - Remove the entire installation
        - Exit
+
+## Client Application for Windows
+
+The 'Releases' section contains the installation files and instructions for the Windows client application. Download the latest release to get the PQC-enabled OpenVPN client and usage guide.
 
 ## Security Notes
 
