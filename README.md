@@ -24,19 +24,19 @@ This script automates the installation, configuration, and management of an Open
 ## Quick Start
 
 ```bash
-git clone https://github.com/Funtiknub/openvpn-pqc-installer.git
+wget https://raw.githubusercontent.com/Funtiknub/openvpn-pqc-installer/main/open-pqc-vpn.sh
 chmod +x open-pqc-vpn.sh
 ./open-pqc-vpn.sh
 ```
-4. **Follow the interactive prompts:**
+**Follow the interactive prompts:**
    - Choose IP, port, protocol, DNS, PQC KEM and signature algorithms, etc.
    - The script will install all dependencies, build OpenSSL and OpenVPN, generate keys/certs, and configure the server.
 
-5. **After installation:**
+**After installation:**
    - The script will generate the first client configuration file (e.g., `/root/Client1.ovpn`).
    - Transfer this file to your client device and import it into your OpenVPN client.
 
-6. **Managing the server:**
+**Managing the server:**
    - Re-run the script to access the management menu:
      - Add new PQC clients
      - Revoke existing clients (with CRL)
